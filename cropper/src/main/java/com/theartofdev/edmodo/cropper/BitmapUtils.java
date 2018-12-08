@@ -23,6 +23,7 @@ import android.graphics.RectF;
 import android.net.Uri;
 import android.util.Log;
 import android.util.Pair;
+import android.support.media.ExifInterface;
 
 import java.io.Closeable;
 import java.io.File;
@@ -37,7 +38,6 @@ import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.egl.EGLContext;
 import javax.microedition.khronos.egl.EGLDisplay;
 
-import androidx.exifinterface.media.ExifInterface;
 
 /** Utility class that deals with operations with an ImageView. */
 final class BitmapUtils {
